@@ -1,4 +1,15 @@
-.customname,
+.customname {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  min-width: 5px;
+  text-decoration: underline;
+  gap: 5px;
+  min-height: 250px;
+}
+
 .label {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flex;
@@ -7,6 +18,8 @@
   min-width: 1px;
   min-height: 5vh;
   background-color: blanchedalmond;
+  min-width: 5px;
+  gap: 15px;
 }
 
 .button {
