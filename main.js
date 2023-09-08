@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 //this is the body where the story is written
-let storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.'
+let storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they hit their vape and paused, then :insertz:. Bob FREAKED, but played it cool — :insertx: weighs 300 pounds, and that smells like turkey.'
 let insertX = ['Barbara Streisand', 'Papa John', 'that guy from the My Pillow commercial'];
 let insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
-let insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
+let insertZ = ['ran like Forrest Gump', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
 
 //i need it to randomly change the story when the button is pressed
 let newStory = storyText;
@@ -19,12 +19,13 @@ let yItem = randomValueFromArray(insertY);
 let zItem = randomValueFromArray(insertZ);
 randomize.addEventListener('click', result);
 
-//the new story created each time will pull from this
+//the new story generates from this string
 newStory = newStory.replaceAll(':insertx:', xItem);
     newStory = newStory.replaceAll(':inserty:', yItem);
     newStory = newStory.replaceAll(':insertz:', zItem);
     newStory = newStory.replaceAll(':insertx:', xItem);
-    
+
+//the box that seperates input from output based on if's
 function result() {
     let newStory = storyText;
 
@@ -43,7 +44,6 @@ function result() {
     let yItem = randomValueFromArray(insertY);
     let zItem = randomValueFromArray(insertZ);
   
-    newStory = newStory.replaceAll(":insertx:", xItem);
     newStory = newStory.replaceAll(":insertx:", xItem);
     newStory = newStory.replaceAll(":inserty:", yItem);
     newStory = newStory.replaceAll(":insertz:", zItem);
