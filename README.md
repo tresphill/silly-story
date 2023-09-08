@@ -1,1 +1,1 @@
-# The Silly Story Generator
+# Just a Silly little story generator for to make you haha
