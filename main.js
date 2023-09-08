@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 //this is the body where the story is written
-let storyText = 'It was 94 fahrenheit outside, why :insertx: went for a walk, is beyond me. Anyway, when they got to :inserty:, they hit their vape and paused, then :insertz:. Bob FREAKED, but played it cool — :insertx: is at LEAST 300 pounds, and that smells like oven-roasted turkey.'
+let storyText = 'It was 94 fahrenheit outside, why :insertx: went for a walk, is beyond me. Anyway, when they got to :inserty:, they hit their vape and paused, then :insertz:. Bob FREAKED, but played it cool beacause he is hungry — :insertx: is at LEAST 300 pounds, and that smells like oven-roasted turkey.'
 let insertX = ['Barbara Streisand', 'Papa John', 'that guy from the My Pillow commercial'];
-let insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
-let insertZ = ['ran like Forrest Gump', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
+let insertY = ['the Bat Mitzvah', 'Disneyland', 'my backyard'];
+let insertZ = ['ran like Forrest Gump', 'melted into a puddle on the sidewalk', 'turned into aglet and dangled away'];
 
 //i need it to randomly change the story when the button is pressed
 let newStory = storyText;
